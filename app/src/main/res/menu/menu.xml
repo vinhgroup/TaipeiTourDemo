@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:title="遊憩景點"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/zh_tw"
+                android:title="zh-tw"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/zh_cn"
+                android:title="zh-cn"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/en"
+                android:title="en"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/ja"
+                android:title="ja"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/ko"
+                android:title="ko"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/es"
+                android:title="es"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/id"
+                android:title="id"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/th"
+                android:title="th"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/vi"
+                android:title="vi"
+                app:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

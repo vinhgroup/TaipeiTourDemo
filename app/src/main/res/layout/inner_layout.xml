@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    android:padding="16dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imgView"
+        android:layout_width="50dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="30dp" />
+
+        <TextView
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/arrow"
+        android:id="@+id/arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+
+</LinearLayout>
